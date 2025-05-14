@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css">
+  <title>Verdis</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul class="navside">
+      <li onclick= delnavside()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="#">Verdis</a></li>
+        <li ><a href="#">Features</a></li>
+        <li ><a href="#">Pricing</a></li>
+        <li ><a href="#">Blog</a></li>
+        <li ><a href="#">Contact</a></li>
+        <li ><a href="verdis.html" id="link">Sign Up</a></li>
+    </ul>
+    <ul class="navlink">
+      <li class="bounce"><a href="#">Verdis</a></li>
+        <li class="hide"><a href="#">Features</a></li>
+        <li class="hide"><a href="#">Pricing</a></li>
+        <li class="hide"><a href="#">Blog</a></li>
+        <li class="hide"><a href="#">Contact</a></li>
+        <li class="hide"><a href="verdis.html" id="link">Sign Up</a></li>
+        <li class="menubtn" onclick= shownavside()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script src="style.js"></script>
+ 
+  <div class="body">
+    <div class="spirals">
+      <div class="spiral green"></div>
+      <div class="spiral red"></div>
+      <div class="spiral yellow"></div>
+      <div class="spiral purple"></div>
+      <div class="spiral blue"></div>
+    </div>
+
+    <div class="container">
+      <h2>Login</h2>
+      <form>
+        <div class="input-field">
+          <input type="text" placeholder="Username" required />
+        </div>
+        <div class="input-field">
+          <input type="password" placeholder="Password" required />
+        </div>
+        <button type="submit" class="submit-btn">Login</button>
+      </form>
+    </div>
+    
+  </div>
+
+  <script src="style.js"></script>
+</body>
+</html>
